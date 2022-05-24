@@ -1,0 +1,58 @@
+/*RESET*/
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img{
+    display: block;
+    border: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+/*----------------------------------*/
+
+.hold-watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: lime;
+}
+
+.hold-watch span{
+    letter-spacing: 10px;
+}
